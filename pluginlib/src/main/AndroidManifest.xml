@@ -1,2 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xzb.pluginlib" />
+    package="com.xzb.pluginlib" >
+
+    <application>
+        <activity android:name=".ProxyActivity" />
+
+    </application>
+</manifest>

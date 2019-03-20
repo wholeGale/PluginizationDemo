@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">PluginizationDemo</string>
     <string name="app_main_name">宿主app</string>
+    <string name="load_plugin_apk">加载插件apk</string>
+    <string name="jump_to_target_activity">跳转到插件apk目标界面</string>
 
 </resources>
