@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">PluginApp</string>
-    <string name="plugin_main_name">PluginApk</string>
+    <string name="plugin_main_name_text">没有被安装的PluginApk被调起</string>
 
 </resources>
