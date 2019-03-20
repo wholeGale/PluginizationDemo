@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PluginizationDemo</string>
+    <string name="app_main_name">宿主app</string>
+
+</resources>
