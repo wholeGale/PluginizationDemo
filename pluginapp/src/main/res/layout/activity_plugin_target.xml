@@ -8,9 +8,10 @@
     tools:context="com.xzb.pluginapp.PluginTargetActivity">
 
     <TextView
+        android:id="@+id/tv_plugin_main_name_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/plugin_main_name_text"
+        android:text="@string/app_name"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

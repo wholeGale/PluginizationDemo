@@ -9,7 +9,9 @@
 
 效果预览图：
 
-![app主界面运行图](pictures/AppMainActivity.jpg)
+![app主界面运行图](pictures/AppMainActivity.png)
+
+![模拟下载pluginApp](pictures/downloadPluginApp.png)
 
 ![跳转到插件apk后的效果图](pictures/pluginTargetActivity.png)
 

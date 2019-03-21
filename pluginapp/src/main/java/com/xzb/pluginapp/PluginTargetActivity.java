@@ -2,6 +2,7 @@ package com.xzb.pluginapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.xzb.pluginlib.PluginActivity;
 
@@ -14,10 +15,18 @@ import com.xzb.pluginlib.PluginActivity;
  */
 public class PluginTargetActivity extends PluginActivity {
 
+    private TextView tv_plugin_main_name_text;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plugin_target);
+
+//        tv_plugin_main_name_text = findViewById(R.id.tv_plugin_main_name_text);
+        //注意pluginApp里面不能直接访问资源，findViewById,getResources()这些都不能直接获取对象，
+        //要通过mActivity.getXXX来获取
+        tv_plugin_main_name_text = mActivity.findViewById(R.id.tv_plugin_main_name_text);
+        tv_plugin_main_name_text.setText(mActivity.getResources().getText(R.string.plugin_main_name_text));
     }
 
 

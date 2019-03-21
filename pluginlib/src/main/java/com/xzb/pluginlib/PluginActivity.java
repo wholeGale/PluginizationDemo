@@ -14,7 +14,7 @@ public class PluginActivity extends Activity implements ILifeCycle{
 
     private int mFrom;
 
-    private Activity mActivity;
+    protected Activity mActivity;
 
     @Override
     public void attach(Activity activity) {
